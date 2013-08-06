@@ -1,0 +1,45 @@
+{
+  "name": "papermonk",
+  "description": "Streaming pdf fetcher for academic papers.",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/kanzure/papermonk",
+  "author": {
+    "name": "Bryan Bishop",
+    "email": "kanzure@gmail.com",
+    "url": "http://heybryan.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanzure/papermonk"
+  },
+  "bugs": {
+    "url": "https://github.com/kanzure/papermonk/issues",
+    "email": "kanzure@gmail.com"
+  },
+  "license": "BSD",
+  "keywords": [
+    "papers",
+    "pdf",
+    "pdfs",
+    "academic articles",
+    "academic papers",
+    "scholarly articles",
+    "scholarly papers",
+    "journals",
+    "scraping",
+    "spidering",
+    "crawling"
+  ],
+  "engines": {
+    "node": ">0"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "xtend": ">1"
+  },
+  "optionalDependencies": {
+  },
+  "main": "./index.js"
+}
