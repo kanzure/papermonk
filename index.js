@@ -61,3 +61,6 @@ Papermonk.prototype.download = function(url, options, callback) {
 
 // TODO: figure out a better thing to export
 module.exports = new Papermonk();
+
+// make Papermonk accessible to the outside world
+module.exports.Papermonk = Papermonk;
