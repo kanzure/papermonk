@@ -4,6 +4,8 @@ Use **papermonk** to extract bibliometric data (including a link to the pdf)
 from publishers, while also downloading pdfs and journals, including
 supplementary materials.
 
+<img src="http://diyhpl.us/~bryan/images/projects/papermonk.png" />
+
 ## install
 
 With [npm](http://npmjs.org/) do:
