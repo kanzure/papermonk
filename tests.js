@@ -42,8 +42,6 @@ test("resets when required again", function(t) {
 });
 
 test("_matches calls test", function(t) {
-    t.plan(1);
-
     var papermonk = require("./");
 
     var url = "http://httpbin.org/test";
@@ -59,8 +57,6 @@ test("_matches calls test", function(t) {
 });
 
 test("_matches calls test with a url", function(t) {
-    t.plan(2);
-
     var papermonk = require("./");
 
     var url = "http://httpbin.org/test";
