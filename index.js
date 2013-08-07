@@ -14,6 +14,9 @@ function Papermonk(options) {
         options.enable_multiple_downloaders = false;
 
     this.options = options;
+
+    // maybe let the options override these entries?
+    this.downloaders = downloaders;
 };
 
 Papermonk.prototype._matches = function(downloader, url) {
@@ -23,7 +26,7 @@ Papermonk.prototype._matches = function(downloader, url) {
 Papermonk.prototype._findMatchingDownloaders = function(url) {
     var matching = [];
 
-    downloaders.forEach(function(downloader, index) {
+    this.downloaders.forEach(function(downloader, index) {
         if (this._matches(downloader, url)) {
             matching.push(downloader);
         }
