@@ -42,15 +42,23 @@ papermonk.download("http://httpbin.org/get", options, function(bibliometricdata,
 
 # testing
 
-TODO
+```
+node tests.js
+```
 
 # TODO
 
-* papermonk tests
+* in-browser tests (probably using browserify)
 
 * example module
 
 * example module testing
+
+# changelog
+
+* v0.0.2 - basic testing
+
+* v0.0.1 - initial commit
 
 # license
 

@@ -1,7 +1,7 @@
 {
   "name": "papermonk",
   "description": "Streaming pdf fetcher for academic papers.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "readmeFilename": "README.md",
   "homepage": "https://github.com/kanzure/papermonk",
   "author": {
@@ -37,7 +37,8 @@
   "devDependencies": {
   },
   "dependencies": {
-    "xtend": ">1"
+    "xtend": ">1",
+    "tape": ">0"
   },
   "optionalDependencies": {
   },
