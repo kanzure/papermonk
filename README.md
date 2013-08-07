@@ -1,6 +1,6 @@
 # papermonk
 
-Use **papermonk** to extract bibliometric data (including a link to the pdf)
+Use **papermonk** to extract bibliographic data (including a link to the pdf)
 from publishers, while also downloading pdfs and journals, including
 supplementary materials.
 
@@ -37,8 +37,8 @@ var options = {
     pdf: true,
 }
 
-papermonk.download("http://httpbin.org/get", options, function(bibliometricdata, pdfstream) {
-    console.log("metadata: " + bibliometricdata);
+papermonk.download("http://httpbin.org/get", options, function(bibliodata, pdfstream) {
+    console.log("metadata: " + bibliodata);
 });
 ```
 
