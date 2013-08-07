@@ -4,7 +4,7 @@ Use **papermonk** to extract bibliometric data (including a link to the pdf)
 from publishers, while also downloading pdfs and journals, including
 supplementary materials.
 
-# install
+## install
 
 With [npm](http://npmjs.org/) do:
 
@@ -26,7 +26,7 @@ cd papermonk/
 npm install .
 ```
 
-# usage
+## usage
 
 ``` js
 var papermonk = require("papermonk");
@@ -40,13 +40,13 @@ papermonk.download("http://httpbin.org/get", options, function(bibliometricdata,
 });
 ```
 
-# testing
+## testing
 
 ```
 node tests.js
 ```
 
-# TODO
+## TODO
 
 * in-browser tests (probably using browserify)
 
@@ -54,12 +54,12 @@ node tests.js
 
 * example module testing
 
-# changelog
+## changelog
 
 * v0.0.2 - basic testing
 
 * v0.0.1 - initial commit
 
-# license
+## license
 
 BSD
