@@ -58,6 +58,8 @@ node tests.js
 
 ## changelog
 
+* v0.0.3 - replace stubbed modules with [papermonk-downloader-plosone](https://github.com/kanzure/papermonk-downloader-plosone)
+
 * v0.0.2 - basic testing
 
 * v0.0.1 - initial commit

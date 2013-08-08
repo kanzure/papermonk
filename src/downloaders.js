@@ -1,4 +1,3 @@
 exports = module.exports = [
-    require("jstor"),
-    require("nature"),
+    require("papermonk-downloader-plosone"),
 ];
